@@ -1,6 +1,7 @@
 class Server:
-    def __init__(self, id) -> None:
+    def __init__(self, id, weight) -> None:
         self.id = id
+        self.weight = weight
         self.total_requests = 0
 
     def make_request(self, request: str):
