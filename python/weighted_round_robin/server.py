@@ -7,6 +7,3 @@ class Server:
     def make_request(self, request: str):
         self.total_requests += 1
         return True
-    
-    def get_total_requests(self):
-        return self.total_requests
